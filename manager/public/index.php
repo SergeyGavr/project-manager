@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 echo '<html lang="en">
 <head>
-    <title>App111 </title>
+    <title>App</title>
     <meta charset="UTF-8" />
 </head>
 <body>
