@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7adaee15-9805-486d-997a-7524fc5d22c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/manager/docker/development/nginx.docker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/docker/development/nginx/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/docker/development/php-fpm.docker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/docker/production/nginx.docker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/docker/production/nginx/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/docker/production/php-fpm.docker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/docker/development/apache.docker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/docker/production/apache.docker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/docker/production/php-cli.docker" beforeDir="false" afterPath="$PROJECT_DIR$/manager/docker/production/php-cli.docker" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +113,7 @@
       <workItem from="1581265231654" duration="1895000" />
       <workItem from="1581276433822" duration="3126000" />
       <workItem from="1581279587098" duration="6444000" />
-      <workItem from="1581363745320" duration="1681000" />
+      <workItem from="1581363745320" duration="2476000" />
     </task>
     <task id="LOCAL-00001" summary="Сборка образов для dev и build">
       <created>1581282956955</created>
@@ -138,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581286656027</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="nginx.docker dev и prod.&#10;Makefile">
+      <created>1581365492151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581365492151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +156,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сборка образов для dev и build" />
     <MESSAGE value="Сборка и запуск образов для dev и build apache" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сборка и запуск образов для dev и build apache" />
+    <MESSAGE value="nginx.docker dev и prod.&#10;Makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="nginx.docker dev и prod.&#10;Makefile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="622" y="307" width="665" height="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581283028130">
@@ -169,14 +168,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="237" width="630" height="563" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581364545833" />
-    <state x="539" y="31" width="983" height="941" key="CommitChangelistDialog2" timestamp="1581286655872">
+    <state x="539" y="31" width="983" height="941" key="CommitChangelistDialog2" timestamp="1581365491962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="31" width="983" height="941" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581286655872" />
-    <state x="455" y="192" width="1000" height="652" key="Vcs.Push.Dialog.v2" timestamp="1581286658802">
+    <state x="539" y="31" width="983" height="941" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581365491962" />
+    <state x="455" y="192" width="1000" height="652" key="Vcs.Push.Dialog.v2" timestamp="1581365496553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="652" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581286658802" />
+    <state x="455" y="192" width="1000" height="652" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581365496553" />
     <state x="568" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1581363760497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
