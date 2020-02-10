@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7adaee15-9805-486d-997a-7524fc5d22c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/docker/development/apache.docker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/docker/development/nginx.docker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/docker/development/nginx/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/docker/development/php-fpm.docker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/docker/production/nginx.docker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/docker/production/nginx/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/docker/production/php-fpm.docker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/docker/production/apache.docker" beforeDir="false" afterPath="$PROJECT_DIR$/manager/docker/production/apache.docker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/docker/development/apache.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/docker/production/apache.docker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/docker/production/php-cli.docker" beforeDir="false" afterPath="$PROJECT_DIR$/manager/docker/production/php-cli.docker" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +47,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response3.html" root0="SKIP_INSPECTION" />
-  </component>
   <component name="ProjectId" id="1XFkdyGphLoYehmidZw7cATzLqL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -67,12 +70,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\UX310\Desktop\project-manager\manager\docker\production" />
-      <recent name="C:\Users\UX310\Desktop\project-manager\manager\docker\development" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\UX310\Desktop\project-manager" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/manager/docker/production" />
+      <recent name="$PROJECT_DIR$/manager/docker/production/nginx" />
+      <recent name="C:\Users\UX310\Desktop\project-manager\manager\docker\production" />
+      <recent name="C:\Users\UX310\Desktop\project-manager\manager\docker\development" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -116,7 +121,8 @@
       <workItem from="1581176330677" duration="5000" />
       <workItem from="1581265231654" duration="1895000" />
       <workItem from="1581276433822" duration="3126000" />
-      <workItem from="1581279587098" duration="6121000" />
+      <workItem from="1581279587098" duration="6444000" />
+      <workItem from="1581363745320" duration="1681000" />
     </task>
     <task id="LOCAL-00001" summary="Сборка образов для dev и build">
       <created>1581282956955</created>
@@ -125,33 +131,56 @@
       <option name="project" value="LOCAL" />
       <updated>1581282956955</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сборка и запуск образов для dev и build apache">
+      <created>1581286656027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581286656027</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сборка образов для dev и build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сборка образов для dev и build" />
+    <MESSAGE value="Сборка и запуск образов для dev и build apache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сборка и запуск образов для dev и build apache" />
   </component>
   <component name="WindowStateProjectService">
     <state x="622" y="307" width="665" height="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581283028130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="622" y="307" width="665" height="421" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581283028130" />
-    <state x="539" y="31" width="983" height="941" key="CommitChangelistDialog2" timestamp="1581282956768">
+    <state x="640" y="237" width="630" height="563" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581364545833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="31" width="983" height="941" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581282956767" />
-    <state x="455" y="192" width="1000" height="652" key="Vcs.Push.Dialog.v2" timestamp="1581282961760">
+    <state x="640" y="237" width="630" height="563" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581364545833" />
+    <state x="539" y="31" width="983" height="941" key="CommitChangelistDialog2" timestamp="1581286655872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="455" y="192" width="1000" height="652" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581282961760" />
-    <state x="568" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1581279596813">
+    <state x="539" y="31" width="983" height="941" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581286655872" />
+    <state x="455" y="192" width="1000" height="652" key="Vcs.Push.Dialog.v2" timestamp="1581286658802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="568" y="308" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581279596813" />
+    <state x="455" y="192" width="1000" height="652" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581286658802" />
+    <state x="568" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1581363760497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="308" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581363760497" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1581286517188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
