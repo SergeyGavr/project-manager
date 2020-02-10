@@ -11,4 +11,3 @@ docker-build:
 	docker-compose build
 
 cli:
-	docker-compose run --rm manager-php-cli php bin/app.php
