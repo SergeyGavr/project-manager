@@ -1,3 +1,17 @@
 .idea
 
+###> symfony/framework-bundle ###
+/manager/.env.local
+/manager/.env.local.php
+/manager/.env.*.local
+/manager/config/secrets/prod/prod.decrypt.private.php
+/manager/public/bundles/
+/manager/var/
 /manager/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+/manager/phpunit
+/manager/phpunit.result.cache
+/manager/phpunit.xml
+###< symfony/phpunit-bridge ###

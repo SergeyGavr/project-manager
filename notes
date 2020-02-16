@@ -1,1 +1,2 @@
-- удалить папку:            sudo rm  -rf manager/skeleton
+- удалить папку:                 sudo rm  -rf manager/skeleton
+- запуск тестов symfony          docker-compose run --rm manager-php-cli php bin/phpunit
