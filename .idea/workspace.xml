@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f2d68e0-6bca-450e-81d7-8fbf0e5e3887" name="Default Changelist" comment="" />
+    <list id="356a971f-97ee-4892-8470-ed11492e4b6a" name="Installed PostgreSQL &amp;&amp;" comment="Installed PostgreSQL &amp;&amp;&#10;Installed PostgreSQL &amp;&amp;&#10;Generate CRUD&#10;&#10;(cherry picked from commit ac8277739c2d3509efc098e29bb1a993d11c8ff2)">
+      <changelist_data name="SergeyGavr" email="sergeygavr.94@yandex.ru" date="1581881294000" />
+      <change beforePath="$PROJECT_DIR$/manager/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/manager/templates/base.html.twig" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/manager/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="SergeyGavr &lt;sergeygavr.94@yandex.ru&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/manager/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/manager/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/manager/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/manager/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/manager/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/manager/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/manager/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/manager/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/manager/vendor/easycorp/easy-log-handler" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/manager/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/twig-pack" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/test-pack" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/manager/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/manager/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/manager/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/manager/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/manager/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/manager/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/manager/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/manager/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/manager/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/manager/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/manager/vendor/composer" />
+      <path value="$PROJECT_DIR$/manager/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/manager/vendor/symfony/swiftmailer-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1XspBPAI2tGoBLira1U8cdrXUlJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../manager-master/demo-project-manager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Fixed docker var permissions">
+      <created>1581844468857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581844468857</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f2d68e0-6bca-450e-81d7-8fbf0e5e3887" name="Default Changelist" comment="" />
+      <created>1581844520114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581844520114</updated>
+      <workItem from="1581844524243" duration="20126000" />
+      <workItem from="1581966934171" duration="6589000" />
+      <workItem from="1582050345999" duration="2090000" />
+      <workItem from="1582562692110" duration="1321000" />
+      <workItem from="1582567692172" duration="80000" />
+    </task>
+    <task id="LOCAL-00002" summary="Added test command">
+      <created>1581844798277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581844798277</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added production envs">
+      <created>1581845759076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581845759076</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Moved dev envs to compose">
+      <created>1581846262223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581846262223</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Install Swiftmailer">
+      <created>1581848581283</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581848581283</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added home controller">
+      <created>1581851666476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581851666476</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Disabled ssh strict host checking">
+      <created>1581874161792</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581874161792</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Installed PostgreSQL &amp;&amp;&#10;Installed PostgreSQL &amp;&amp;&#10;Generate CRUD">
+      <created>1581881294850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581881294850</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Generate Crud">
+      <created>1581883458320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581883458320</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added makefile migrations">
+      <created>1581883556788</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581883556788</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added bootstrap markup">
+      <created>1581884480267</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581884480267</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Generated user">
+      <created>1581969479798</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581969479798</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Generated auth">
+      <created>1581970532442</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581970532442</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added bootstrap markup">
+      <created>1581970869550</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1581970869550</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Generated register form">
+      <created>1581972382994</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1581972382994</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Enabled Remember Me">
+      <created>1581972460016</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1581972460016</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed user table name">
+      <created>1581972864726</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1581972864726</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added login success handler">
+      <created>1581973150650</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581973150650</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added access control">
+      <created>1581973936701</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1581973936701</updated>
+    </task>
+    <task id="LOCAL-00020" summary="bootstrap button">
+      <created>1582567470951</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1582567470951</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added test command" />
+    <MESSAGE value="Added production envs" />
+    <MESSAGE value="Moved dev envs to compose" />
+    <MESSAGE value="Install Swiftmailer" />
+    <MESSAGE value="Added home controller" />
+    <MESSAGE value="Disabled ssh strict host checking" />
+    <MESSAGE value="Installed PostgreSQL &amp;&amp;&#10;Installed PostgreSQL &amp;&amp;&#10;Generate CRUD" />
+    <MESSAGE value="Generate Crud" />
+    <MESSAGE value="Added makefile migrations" />
+    <MESSAGE value="Generated user" />
+    <MESSAGE value="Generated auth" />
+    <MESSAGE value="Added bootstrap markup" />
+    <MESSAGE value="Generated register form" />
+    <MESSAGE value="Enabled Remember Me" />
+    <MESSAGE value="Fixed user table name" />
+    <MESSAGE value="Added login success handler" />
+    <MESSAGE value="Added access control" />
+    <MESSAGE value="bootstrap button" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap button" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="506" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581882795084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="506" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581882795084" />
+    <state x="0" y="0" width="1910" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581969720899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1910" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581969720899" />
+    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2" timestamp="1582567470689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582567470689" />
+    <state x="182" y="89" width="1536" height="864" key="DiffContextDialog" timestamp="1582567574520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="182" y="89" width="1536" height="864" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567574520" />
+    <state x="637" y="163" width="636" height="714" key="FileChooserDialogImpl" timestamp="1581844696728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="637" y="163" width="636" height="714" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581844696728" />
+    <state width="366" height="730" key="HiddenNamespacesPopup" timestamp="1581882014137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="366" height="730" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1581882014137" />
+    <state x="182" y="89" width="1536" height="864" key="MergeDialog" timestamp="1582567595545">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="182" y="89" width="1536" height="864" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567595545" />
+    <state x="528" y="105" width="853" height="830" key="MultipleFileMergeDialog" timestamp="1582567664507">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="528" y="105" width="853" height="830" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567664507" />
+    <state x="533" y="260" width="844" height="520" key="NewPhpClassDialog" timestamp="1581849113933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="533" y="260" width="844" height="520" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581849113933" />
+    <state x="217" y="0" width="1476" height="1040" key="SettingsEditor" timestamp="1581874744899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="217" y="0" width="1476" height="1040" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581874744899" />
+    <state x="355" y="112" width="1200" height="815" key="Vcs.Push.Dialog.v2" timestamp="1582567475188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="355" y="112" width="1200" height="815" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582567475188" />
+    <state x="478" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1582567692902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="478" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567692902" />
+    <state x="0" y="0" width="985" height="1040" key="find.popup" timestamp="1581969803899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="985" height="1040" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581969803899" />
+    <state x="537" y="99" width="835" height="841" key="git4idea.branch.GitSmartOperationDialog" timestamp="1582567658871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="537" y="99" width="835" height="841" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567658871" />
+    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1581849371526">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581849371526" />
+  </component>
+</project>
