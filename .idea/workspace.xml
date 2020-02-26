@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f2d68e0-6bca-450e-81d7-8fbf0e5e3887" name="Default Changelist" comment="" />
+    <list default="true" id="4f2d68e0-6bca-450e-81d7-8fbf0e5e3887" name="Default Changelist" comment="Main branch">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/Entity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/Entity/Post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/Migrations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/Repository/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/Repository/PostRepository.php" beforeDir="false" />
+    </list>
     <list id="356a971f-97ee-4892-8470-ed11492e4b6a" name="Installed PostgreSQL &amp;&amp;" comment="Installed PostgreSQL &amp;&amp;&#10;Installed PostgreSQL &amp;&amp;&#10;Generate CRUD&#10;&#10;(cherry picked from commit ac8277739c2d3509efc098e29bb1a993d11c8ff2)">
       <changelist_data name="SergeyGavr" email="sergeygavr.94@yandex.ru" date="1581881294000" />
-      <change beforePath="$PROJECT_DIR$/manager/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/manager/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +275,8 @@
       <workItem from="1581966934171" duration="6589000" />
       <workItem from="1582050345999" duration="2090000" />
       <workItem from="1582562692110" duration="1321000" />
-      <workItem from="1582567692172" duration="80000" />
+      <workItem from="1582567692172" duration="1330000" />
+      <workItem from="1582741123064" duration="294000" />
     </task>
     <task id="LOCAL-00002" summary="Added test command">
       <created>1581844798277</created>
@@ -404,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582567470951</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Main branch">
+      <created>1582567820417</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1582567820417</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +457,8 @@
     <MESSAGE value="Added login success handler" />
     <MESSAGE value="Added access control" />
     <MESSAGE value="bootstrap button" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap button" />
+    <MESSAGE value="Main branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main branch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="506" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581882795084">
@@ -454,10 +469,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" width="1910" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581969720899" />
-    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2" timestamp="1582567470689">
+    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2" timestamp="1582741423178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582567470689" />
+    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582741423178" />
     <state x="182" y="89" width="1536" height="864" key="DiffContextDialog" timestamp="1582567574520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -490,10 +505,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="355" y="112" width="1200" height="815" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582567475188" />
-    <state x="478" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1582567692902">
+    <state x="478" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1582741122984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="478" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567692902" />
+    <state x="478" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582741122984" />
     <state x="0" y="0" width="985" height="1040" key="find.popup" timestamp="1581969803899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
