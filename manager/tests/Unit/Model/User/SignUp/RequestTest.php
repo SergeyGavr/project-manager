@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace App\Tests\Unit\Model\User\SignUp;
+namespace App\Tests\Unit\Model\User\Entity\User\SignUp;
 
 use App\Model\User\Entity\User\User;
 use PHPUnit\Framework\TestCase;
 
-class RequestTest
+class RequestTest extends TestCase
 {
     public function testSuccess(): void
     {
