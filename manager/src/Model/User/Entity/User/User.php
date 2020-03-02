@@ -5,12 +5,18 @@ declare(strict_types=1);
 namespace App\Model\User\Entity\User;
 
 
+use DateTimeImmutable;
+
 class User
 {
     /**
      * @var string
      */
     private $id;
+    /**
+     * @var DateTimeImmutable
+     */
+    private $date;
     /**
      * @var string
      */
@@ -20,9 +26,10 @@ class User
      */
     private $passwordHash;
 
-    public function __construct(string $id, string $email, string $hash)
+    public function __construct(string $id, DateTimeImmutable $date, string $email, string $hash)
     {
         $this->id = $id;
+        $this->date = $date;
         $this->email = $email;
         $this->passwordHash = $hash;
     }
