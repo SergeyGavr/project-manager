@@ -6,6 +6,8 @@ namespace App\Model\User\UseCase\SignUp;
 
 use App\Model\User\Entity\User\User;
 use Doctrine\ORM\EntityManagerInterface;
+use Exception;
+use Ramsey\Uuid\Uuid;
 
 class Handler
 {
@@ -16,6 +18,10 @@ class Handler
         $this->em = $em;
     }
 
+    /**
+     * @param Command $command
+     * @throws Exception
+     */
     public function handle(Command $command): void
     {
         $email = mb_strtolower($command->email);
@@ -25,6 +31,7 @@ class Handler
         }
 
         $user = new User(
+            Uuid::uuid4()->toString(),
             $email,
             password_hash($command->password, PASSWORD_ARGON2I)
         );
