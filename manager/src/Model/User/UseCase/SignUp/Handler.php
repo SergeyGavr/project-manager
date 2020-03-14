@@ -11,6 +11,21 @@ use Ramsey\Uuid\Uuid;
 
 class Handler
 {
+    public function __construct()
+    {
+    }
+
+    public function handle(Command $command)
+    {
+        $email = new Email($command->email);
+    }
+}
+
+
+
+
+class Handler0
+{
     private $em;
 
     public function __construct(EntityManagerInterface $em)
