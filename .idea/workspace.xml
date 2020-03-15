@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f2d68e0-6bca-450e-81d7-8fbf0e5e3887" name="Default Changelist" comment="">
+    <list default="true" id="4f2d68e0-6bca-450e-81d7-8fbf0e5e3887" name="Default Changelist" comment="Added user create date">
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/Flusher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/Email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/Id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/Service/PasswordHasher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Request/Handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/manager/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/manager/.phpunit.result.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manager/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/manager/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/manager/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Request/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Handler.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/RequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/RequestTest.php" afterDir="false" />
     </list>
     <list id="356a971f-97ee-4892-8470-ed11492e4b6a" name="Installed PostgreSQL &amp;&amp;" comment="Installed PostgreSQL &amp;&amp;&#10;Installed PostgreSQL &amp;&amp;&#10;Generate CRUD&#10;&#10;(cherry picked from commit ac8277739c2d3509efc098e29bb1a993d11c8ff2)">
@@ -229,7 +235,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../manager-master/demo-project-manager" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Request" />
+    </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
@@ -280,7 +291,11 @@
       <workItem from="1582562692110" duration="1321000" />
       <workItem from="1582567692172" duration="1330000" />
       <workItem from="1582741123064" duration="2668000" />
-      <workItem from="1583173819140" duration="3924000" />
+      <workItem from="1583173819140" duration="4928000" />
+      <workItem from="1584041419458" duration="1405000" />
+      <workItem from="1584178273726" duration="5960000" />
+      <workItem from="1584289222222" duration="1314000" />
+      <workItem from="1584298720817" duration="1330000" />
     </task>
     <task id="LOCAL-00002" summary="Added test command">
       <created>1581844798277</created>
@@ -457,7 +472,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583176714986</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added user UUID id">
+      <created>1583177893746</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1583177893746</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added user create date">
+      <created>1583178429864</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1583178429864</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added user create datee">
+      <created>1584180268696</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1584180268696</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,8 +529,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added test command" />
-    <MESSAGE value="Added production envs" />
     <MESSAGE value="Moved dev envs to compose" />
     <MESSAGE value="Install Swiftmailer" />
     <MESSAGE value="Added home controller" />
@@ -517,13 +551,24 @@
     <MESSAGE value="Added signup request drafts" />
     <MESSAGE value="Added signup request usecase" />
     <MESSAGE value="Added user draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added user draft" />
+    <MESSAGE value="Added user UUID id" />
+    <MESSAGE value="Added user create date" />
+    <MESSAGE value="Added user create datee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added user create datee" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="355" y="18" width="1200" height="1004" key="#Inspections" timestamp="1584184576067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="355" y="18" width="1200" height="1004" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1584184576067" />
     <state x="506" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581882795084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="506" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581882795084" />
+    <state x="674" y="104" width="561" height="832" key="#com.intellij.ide.util.MemberChooser" timestamp="1584180013294">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="674" y="104" width="561" height="832" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584180013294" />
     <state x="0" y="0" width="1910" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581969720899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -532,14 +577,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="294" width="661" height="451" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1583174769108" />
-    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2" timestamp="1583176714845">
+    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2" timestamp="1584180268496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583176714845" />
-    <state x="182" y="89" width="1536" height="864" key="DiffContextDialog" timestamp="1582741572839">
+    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584180268496" />
+    <state x="182" y="89" width="1536" height="864" key="DiffContextDialog" timestamp="1584042147991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="182" y="89" width="1536" height="864" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582741572839" />
+    <state x="182" y="89" width="1536" height="864" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584042147991" />
     <state x="637" y="163" width="636" height="714" key="FileChooserDialogImpl" timestamp="1581844696728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -556,22 +601,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="528" y="105" width="853" height="830" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567664507" />
-    <state x="533" y="260" width="994" height="520" key="NewPhpClassDialog" timestamp="1583174793915">
+    <state x="533" y="260" width="994" height="520" key="NewPhpClassDialog" timestamp="1584299469018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="533" y="260" width="994" height="520" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583174793915" />
-    <state x="217" y="0" width="1476" height="1040" key="SettingsEditor" timestamp="1581874744899">
+    <state x="533" y="260" width="994" height="520" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584299469018" />
+    <state x="217" y="0" width="1476" height="1040" key="SettingsEditor" timestamp="1584179898449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="217" y="0" width="1476" height="1040" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581874744899" />
-    <state x="355" y="112" width="1200" height="815" key="Vcs.Push.Dialog.v2" timestamp="1583176720396">
+    <state x="217" y="0" width="1476" height="1040" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584179898449" />
+    <state x="355" y="112" width="1200" height="815" key="Vcs.Push.Dialog.v2" timestamp="1584180280606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="355" y="112" width="1200" height="815" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583176720396" />
-    <state x="478" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1583173819294">
+    <state x="355" y="112" width="1200" height="815" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584180280606" />
+    <state x="478" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1584289257514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="478" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583173819294" />
+    <state x="478" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584289257514" />
     <state x="0" y="0" width="985" height="1040" key="find.popup" timestamp="1581969803899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -584,5 +629,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581849371526" />
+    <state x="616" y="401" width="687" height="237" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584299014807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="401" width="687" height="237" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584299014807" />
   </component>
 </project>
