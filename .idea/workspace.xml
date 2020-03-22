@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f2d68e0-6bca-450e-81d7-8fbf0e5e3887" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/Service/ConfirmTokenSender.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/Service/ConfirmTokenizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Confirm/Command.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Confirm/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/ConfirmTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/manager/.phpunit.result.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager/src/Model/User/Service/ConfirmTokenizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/Model/User/Service/SignUpConfirmTokenizer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Request/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Request/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/RequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/RequestTest.php" afterDir="false" />
     </list>
     <list id="356a971f-97ee-4892-8470-ed11492e4b6a" name="Installed PostgreSQL &amp;&amp;" comment="Installed PostgreSQL &amp;&amp;&#10;Installed PostgreSQL &amp;&amp;&#10;Generate CRUD&#10;&#10;(cherry picked from commit ac8277739c2d3509efc098e29bb1a993d11c8ff2)">
       <changelist_data name="SergeyGavr" email="sergeygavr.94@yandex.ru" date="1581881294000" />
@@ -226,6 +229,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../manager-master/demo-project-manager" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -261,6 +265,24 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Makefile.init">
+    <configuration name="init" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="init" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="RequestTest.testSuccess" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Unit\Model\User\Entity\User\SignUp\RequestTest" file="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/RequestTest.php" method="testSuccess" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.init" />
+        <item itemvalue="PHPUnit.RequestTest.testSuccess" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -288,7 +310,10 @@
       <workItem from="1584041419458" duration="1405000" />
       <workItem from="1584178273726" duration="5960000" />
       <workItem from="1584289222222" duration="1314000" />
-      <workItem from="1584298720817" duration="2409000" />
+      <workItem from="1584298720817" duration="2765000" />
+      <workItem from="1584385995459" duration="599000" />
+      <workItem from="1584556224148" duration="3263000" />
+      <workItem from="1584860091148" duration="1155000" />
     </task>
     <task id="LOCAL-00002" summary="Added test command">
       <created>1581844798277</created>
@@ -493,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584300120817</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added confirm token and wait status">
+      <created>1584301381389</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1584301381389</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +561,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Install Swiftmailer" />
     <MESSAGE value="Added home controller" />
     <MESSAGE value="Disabled ssh strict host checking" />
     <MESSAGE value="Installed PostgreSQL &amp;&amp;&#10;Installed PostgreSQL &amp;&amp;&#10;Generate CRUD" />
@@ -554,13 +585,22 @@
     <MESSAGE value="Added user create date" />
     <MESSAGE value="Added user create datee" />
     <MESSAGE value="Incapsulated responsibilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incapsulated responsibilities" />
+    <MESSAGE value="Added confirm token and wait status" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added confirm token and wait status" />
   </component>
   <component name="WindowStateProjectService">
     <state x="355" y="18" width="1200" height="1004" key="#Inspections" timestamp="1584184576067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="355" y="18" width="1200" height="1004" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1584184576067" />
+    <state x="489" y="0" width="943" height="1040" key="#PHP" timestamp="1584301406071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="489" y="0" width="943" height="1040" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1584301406071" />
+    <state x="462" y="0" width="1212" height="1040" key="#RequestTest.testSuccess" timestamp="1584301407871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="462" y="0" width="1212" height="1040" key="#RequestTest.testSuccess/0.0.1920.1040@0.0.1920.1040" timestamp="1584301407871" />
     <state x="506" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581882795084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -569,26 +609,44 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="674" y="104" width="561" height="832" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584180013294" />
-    <state x="0" y="0" width="1910" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581969720899">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="0" y="0" width="1910" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584860467281">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584860467281" />
     <state x="0" y="0" width="1910" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581969720899" />
     <state x="624" y="294" width="661" height="451" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583174769108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="294" width="661" height="451" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1583174769108" />
-    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2" timestamp="1584300120500">
+    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2" timestamp="1584301381207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584300120500" />
-    <state x="182" y="89" width="1536" height="864" key="DiffContextDialog" timestamp="1584042147991">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584301381207" />
+    <state x="182" y="89" width="1536" height="860" maximized="true" key="DiffContextDialog" timestamp="1584860267255">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
+    <state x="182" y="89" width="1536" height="860" maximized="true" key="DiffContextDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584860267255" />
     <state x="182" y="89" width="1536" height="864" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584042147991" />
     <state x="637" y="163" width="636" height="714" key="FileChooserDialogImpl" timestamp="1581844696728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="637" y="163" width="636" height="714" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581844696728" />
+    <state width="1858" height="247" key="GridCell.Tab.0.bottom" timestamp="1584301475330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584301475330" />
+    <state width="1858" height="247" key="GridCell.Tab.0.center" timestamp="1584301475328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="247" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584301475328" />
+    <state width="1858" height="247" key="GridCell.Tab.0.left" timestamp="1584301475328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="247" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584301475328" />
+    <state width="1858" height="247" key="GridCell.Tab.0.right" timestamp="1584301475329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1858" height="247" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584301475329" />
     <state width="366" height="730" key="HiddenNamespacesPopup" timestamp="1581882014137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -601,9 +659,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="528" y="105" width="853" height="830" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567664507" />
-    <state x="533" y="260" width="994" height="520" key="NewPhpClassDialog" timestamp="1584301127896">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="533" y="259" width="1074" height="523" key="NewPhpClassDialog" timestamp="1584860564280">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
+    <state x="533" y="259" width="1074" height="523" key="NewPhpClassDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584860564280" />
     <state x="533" y="260" width="994" height="520" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584301127896" />
     <state x="217" y="0" width="1476" height="1040" key="SettingsEditor" timestamp="1584179898449">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -617,6 +676,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="478" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584289257514" />
+    <state x="216" y="0" width="1704" height="1035" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1584860997329">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="216" y="0" width="1704" height="1035" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584860997329" />
     <state x="0" y="0" width="985" height="1040" key="find.popup" timestamp="1581969803899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
