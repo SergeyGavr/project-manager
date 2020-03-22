@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f2d68e0-6bca-450e-81d7-8fbf0e5e3887" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/Network.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/Network/Auth/Command.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/Network/Auth/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/tests/Unit/Model/User/Network/AuthTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/CreateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/ResetToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/Service/ResetTokenSender.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/Service/ResetTokenizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/Reset/Command.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/Reset/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/tests/Unit/Model/User/Reset/RequestTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/manager/.phpunit.result.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/Model/User/Entity/User/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Request/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/src/Model/User/UseCase/SignUp/Request/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/ConfirmTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/ConfirmTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/RequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/manager/tests/Unit/Model/User/SignUp/RequestTest.php" afterDir="false" />
     </list>
     <list id="356a971f-97ee-4892-8470-ed11492e4b6a" name="Installed PostgreSQL &amp;&amp;" comment="Installed PostgreSQL &amp;&amp;&#10;Installed PostgreSQL &amp;&amp;&#10;Generate CRUD&#10;&#10;(cherry picked from commit ac8277739c2d3509efc098e29bb1a993d11c8ff2)">
       <changelist_data name="SergeyGavr" email="sergeygavr.94@yandex.ru" date="1581881294000" />
@@ -317,7 +314,7 @@
       <workItem from="1584298720817" duration="2765000" />
       <workItem from="1584385995459" duration="599000" />
       <workItem from="1584556224148" duration="3263000" />
-      <workItem from="1584860091148" duration="2685000" />
+      <workItem from="1584860091148" duration="4468000" />
     </task>
     <task id="LOCAL-00002" summary="Added test command">
       <created>1581844798277</created>
@@ -536,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584861281075</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added network auth">
+      <created>1584862802669</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1584862802669</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +576,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Disabled ssh strict host checking" />
     <MESSAGE value="Installed PostgreSQL &amp;&amp;&#10;Installed PostgreSQL &amp;&amp;&#10;Generate CRUD" />
     <MESSAGE value="Generate Crud" />
     <MESSAGE value="Added makefile migrations" />
@@ -597,7 +600,8 @@
     <MESSAGE value="Incapsulated responsibilities" />
     <MESSAGE value="Added confirm token and wait status" />
     <MESSAGE value="Added sign up confirm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sign up confirm" />
+    <MESSAGE value="Added network auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added network auth" />
   </component>
   <component name="WindowStateProjectService">
     <state x="355" y="18" width="1200" height="1004" key="#Inspections" timestamp="1584184576067">
@@ -620,19 +624,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="674" y="104" width="561" height="832" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584180013294" />
-    <state x="0" y="0" width="1910" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584860467281">
+    <state x="0" y="0" width="713" height="1035" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584863363852">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584860467281" />
+    <state x="0" y="0" width="713" height="1035" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584863363852" />
     <state x="0" y="0" width="1910" height="1040" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581969720899" />
     <state x="624" y="294" width="661" height="451" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583174769108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="294" width="661" height="451" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1583174769108" />
-    <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2" timestamp="1584861280777">
+    <state x="353" y="0" width="1244" height="1035" key="CommitChangelistDialog2" timestamp="1584862802544">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="353" y="0" key="CommitChangelistDialog2/0.0.1920.1035@0.0.1920.1035" timestamp="1584861280777" />
+    <state x="353" y="0" width="1244" height="1035" key="CommitChangelistDialog2/0.0.1920.1035@0.0.1920.1035" timestamp="1584862802544" />
     <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584301381207" />
     <state x="182" y="89" width="1536" height="860" maximized="true" key="DiffContextDialog" timestamp="1584860267255">
       <screen x="0" y="0" width="1920" height="1035" />
@@ -671,10 +675,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="528" y="105" width="853" height="830" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582567664507" />
-    <state x="533" y="259" width="1074" height="523" key="NewPhpClassDialog" timestamp="1584862002120">
+    <state x="533" y="259" width="1074" height="523" key="NewPhpClassDialog" timestamp="1584863318663">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="533" y="259" width="1074" height="523" key="NewPhpClassDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584862002120" />
+    <state x="533" y="259" width="1074" height="523" key="NewPhpClassDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584863318663" />
     <state x="533" y="260" width="994" height="520" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584301127896" />
     <state x="217" y="0" width="1476" height="1040" key="SettingsEditor" timestamp="1584179898449">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -689,10 +693,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="478" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584289257514" />
-    <state x="216" y="0" width="1704" height="1035" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1584862277413">
+    <state x="216" y="0" width="1704" height="1035" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1584863679993">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="216" y="0" width="1704" height="1035" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584862277413" />
+    <state x="216" y="0" width="1704" height="1035" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584863679993" />
     <state x="0" y="0" width="985" height="1040" key="find.popup" timestamp="1581969803899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
