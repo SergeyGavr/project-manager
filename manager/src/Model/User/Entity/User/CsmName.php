@@ -6,7 +6,7 @@ namespace App\Model\User\Entity\User;
 use phpDocumentor\Reflection\Types\Self_;
 use Webmozart\Assert\Assert;
 
-class Name
+class CsmName
 {
     private const CSM_1 = 'CSM_1_NAME';
     private const CSM_2 = 'CSM_2_NAME';
