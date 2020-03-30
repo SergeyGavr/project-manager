@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f2d68e0-6bca-450e-81d7-8fbf0e5e3887" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/manager/src/Migrations/Version20200330193717.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <list id="356a971f-97ee-4892-8470-ed11492e4b6a" name="Installed PostgreSQL &amp;&amp;" comment="Installed PostgreSQL &amp;&amp;&#10;Installed PostgreSQL &amp;&amp;&#10;Generate CRUD&#10;&#10;(cherry picked from commit ac8277739c2d3509efc098e29bb1a993d11c8ff2)">
       <changelist_data name="SergeyGavr" email="sergeygavr.94@yandex.ru" date="1581881294000" />
@@ -287,7 +287,7 @@
       <workItem from="1584860091148" duration="12265000" />
       <workItem from="1585497111448" duration="1435000" />
       <workItem from="1585505013549" duration="1862000" />
-      <workItem from="1585591100234" duration="6061000" />
+      <workItem from="1585591100234" duration="6373000" />
     </task>
     <task id="LOCAL-00002" summary="Added test command">
       <created>1581844798277</created>
@@ -555,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585596983654</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Generated migation">
+      <created>1585597548837</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1585597548837</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +598,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Generated register form" />
     <MESSAGE value="Enabled Remember Me" />
     <MESSAGE value="Fixed user table name" />
     <MESSAGE value="Added login success handler" />
@@ -616,7 +622,8 @@
     <MESSAGE value="Added user active checking" />
     <MESSAGE value="Migrated to named constructors &amp;&amp;&#10;Added role entity" />
     <MESSAGE value="Added entity mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added entity mapping" />
+    <MESSAGE value="Generated migation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generated migation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="355" y="18" width="1200" height="1004" key="#Inspections" timestamp="1584184576067">
@@ -649,10 +656,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="294" width="661" height="451" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1583174769108" />
-    <state x="353" y="0" width="1244" height="1035" key="CommitChangelistDialog2" timestamp="1585596983476">
+    <state x="353" y="0" width="1244" height="1035" key="CommitChangelistDialog2" timestamp="1585597548685">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="353" y="0" width="1244" height="1035" key="CommitChangelistDialog2/0.0.1920.1035@0.0.1920.1035" timestamp="1585596983476" />
+    <state x="353" y="0" width="1244" height="1035" key="CommitChangelistDialog2/0.0.1920.1035@0.0.1920.1035" timestamp="1585597548685" />
     <state x="353" y="0" width="1204" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584301381207" />
     <state x="182" y="89" width="1536" height="860" maximized="true" key="DiffContextDialog" timestamp="1585508546424">
       <screen x="0" y="0" width="1920" height="1035" />
