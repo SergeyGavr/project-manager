@@ -1,6 +1,6 @@
-FROM php:7.2-cli
+FROM php:7.4-cli
 
-RUN apt-get update && apt-get install -y zlib1g-dev libicu-dev libpq-dev zip \
+RUN apt-get update && apt-get install -y zlib1g-dev libicu-dev libpq-dev zip libzip-dev \
     && docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql \
     && docker-php-ext-install intl pdo_pgsql zip
 
